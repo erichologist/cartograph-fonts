@@ -1,0 +1,8 @@
+@import url("https://p.typekit.net/p.css?s=1&k=rou8uwi&ht=tk&f=1298&a=19693694&app=typekit&e=css");
+
+@font-face {
+font-family:"parity-sans-mono";
+src:url("https://raw.githubusercontent.com/erichologist/cartograph-fonts/refs/heads/master/normal-fonts/ParitySansMonoRegular.woff2") format("woff2");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+.paritymono { font-family: "parity-sans-mono", monospace; }
