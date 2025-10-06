@@ -1,8 +1,39 @@
-@import url("https://p.typekit.net/p.css?s=1&k=rou8uwi&ht=tk&f=1298&a=19693694&app=typekit&e=css");
-
 @font-face {
-font-family:"parity-sans-mono";
-src:url("https://raw.githubusercontent.com/erichologist/cartograph-fonts/refs/heads/master/normal-fonts/ParitySansMonoRegular.woff2") format("woff2");
-font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+   font-family: 'Parity Sans Extra';
+   src: local('Parity Sans Extra Bold'),
+      local('ParitySansExtraBold'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansExtraBold.woff2') format('woff2'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansExtraBold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
 }
-.paritymono { font-family: "parity-sans-mono", monospace; }
+@font-face {
+   font-family: 'Parity Sans';
+   src: local('Parity Sans Medium'),
+      local('ParitySansMedium'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansMedium.woff2') format('woff2'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansMedium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Parity Sans';
+   src: local('Parity Sans Regular'), 
+      local('ParitySansRegular'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansRegular.woff2') format('woff2'),
+      url('https://github.com/erichologist/SVGs/raw/refs/heads/main/styl/ParitySansRegular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family:"parity-sans-mono";
+   src:url('https://raw.githubusercontent.com/erichologist/cartograph-fonts/refs/heads/master/normal-fonts/ParitySansMonoRegular.woff2') format("woff2");
+   font-display: auto;
+   font-style: normal;
+   font-weight: 400;
+   font-stretch: normal;
+}
+.paritymono { font-family: 'parity-sans-mono', monospace; }
